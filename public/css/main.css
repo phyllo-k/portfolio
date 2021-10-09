@@ -119,12 +119,21 @@ h2 {
 
 .project-tile {
     background: #303848;
-    box-shadow: 1px 7px 20px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 7px 20px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.2);
     border-radius: 3px;
 }
 
 .project-tile:hover {
-    box-shadow: 1px 7px 20px 0 rgba(217, 118, 226, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 7px 20px 0 rgba(150, 150, 226, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.project-tile span {
+    color: #303848;
+}
+
+.project-tile:hover span {
+    color: #ff7f50;
+    transition: color 0.3s ease-out;
 }
 
 #projects img {
@@ -143,11 +152,11 @@ h2 {
     margin: 4rem auto;
     padding: 1rem 2rem;
     display: inline-block;
-    box-shadow: 1px 7px 20px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 7px 20px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.2);
 }
 
 #profile-link:hover {
-    box-shadow: 1px 7px 20px 0 rgba(217, 118, 226, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 7px 20px 0 rgba(150, 150, 226, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.2);
 }
 
 .links a {
