@@ -6,6 +6,7 @@
 </script>
 
 <svelte:head>
+    <title>Firo Kong | Portfolio</title>
     <script
         src="https://kit.fontawesome.com/c1d1113afa.js"
         crossorigin="anonymous"></script>
@@ -35,6 +36,7 @@
         font-family: "Cutive Mono", monospace;
         text-align: center;
         overflow-x: hidden;
+        user-select: none;
     }
 
     :global(section) {

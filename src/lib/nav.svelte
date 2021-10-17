@@ -23,13 +23,14 @@
 
     a {
         display: inline-block;
-        padding: 0 3rem;
+        padding: 0 calc(2vw + 1rem);
         line-height: 3em;
         position: relative;
     }
 
-    a:hover {
-        transform: scale(1.1);
+    @media (hover: hover) {
+        a:hover {
+            transform: scale(1.1);
+        }
     }
-
 </style>

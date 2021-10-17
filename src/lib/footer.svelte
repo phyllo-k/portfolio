@@ -50,19 +50,21 @@
         margin-bottom: 12rem;
         padding: 0 calc(1rem + 1.5vw);
         position: relative;
-        transform: scale(1.5)
+        transform: scale(1.5);
     }
 
-    a:hover {
-        animation: links 0.3s forwards;
-    }
-
-    @keyframes links {
-        0% {
-            top: 0;
+    @media (hover: hover) {
+        a:hover {
+            animation: links 0.3s forwards;
         }
-        100% {
-            top: 1rem;
+
+        @keyframes links {
+            0% {
+                top: 0;
+            }
+            100% {
+                top: 1rem;
+            }
         }
     }
 </style>
