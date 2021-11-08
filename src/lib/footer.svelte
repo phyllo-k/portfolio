@@ -6,12 +6,6 @@
     <section id="contact">
         <h2>Let's work together...</h2>
         <a
-            href="https://github.com/Phyllo-K"
-            title="@PhylloK on GitHub"
-            rel="me"
-            target="_blank"><i class="fa fa-github-alt fa-2x" /></a
-        >
-        <a
             href="https://twitter.com/phyllo_k"
             title="@PhylloK on Twitter"
             rel="me"
@@ -37,11 +31,11 @@
 <style>
     footer {
         font-size: 1rem;
-        padding: 12rem 0 3rem 0;
+        padding: 3rem 0;
     }
 
-    footer hr {
-        color: red;
+    hr {
+        color: #fff;
         margin: 2rem auto;
     }
 

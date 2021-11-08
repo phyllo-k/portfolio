@@ -1,10 +1,10 @@
-<header id="hero">
+<header id="about">
     <h1>Hi, I am Firo.</h1>
     <p>a web developer</p>
 </header>
 
 <style>
-    #hero {
+    #about {
         display: flex;
         flex-flow: column wrap;
         align-items: center;

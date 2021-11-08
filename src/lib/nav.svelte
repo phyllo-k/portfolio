@@ -1,5 +1,5 @@
 <nav id="navbar">
-    <a href="#hero">About</a>
+    <a href="#about">About</a>
     <a href="#projects">Projects</a>
     <a href="#contact">Contact</a>
 </nav>
